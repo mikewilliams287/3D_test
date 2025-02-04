@@ -21,7 +21,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ProBuilder Default URP_Blue
-  m_Shader: {fileID: 4800000, guid: a5e1047f27bee462089b2bc3104f90fd, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 7f3bdc6fd92af4529b40bcf8d577c8fb,
+    type: 3}
   m_Parent: {fileID: 2100000, guid: 25a9fb42d361f46ad89221f6d301e96e, type: 2}
   m_ModifiedSerializedProperties: 2
   m_ValidKeywords: []
@@ -39,5 +40,5 @@ Material:
     m_Ints: []
     m_Floats: []
     m_Colors:
-    - _Color: {r: 0, g: 0.9548309, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
