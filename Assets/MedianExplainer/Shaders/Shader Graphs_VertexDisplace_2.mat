@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8007127346868495815
+--- !u!114 &-3936431477249056575
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,26 +20,29 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ProBuilder URP Gradient
-  m_Shader: {fileID: 4800000, guid: a5e1047f27bee462089b2bc3104f90fd, type: 3}
+  m_Name: Shader Graphs_VertexDisplace_2
+  m_Shader: {fileID: -6465566751694194690, guid: 4b9ff04999c0eaf4f9fee91fd4567b89,
+    type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _ALPHATEST_ON
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2450
-  stringTagMap:
-    RenderType: TransparentCutout
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 6344bf96fbda94141a525046d088fb23, type: 3}
+    - _SampleTexture2D_5e300235c135493594bfbd867512d4b4_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 53a06d2175489e84eac85aca26571654, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_e06a15ffc5fa48e4b4294069cc84db8f_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: ef381b22357717344ac44589ea66de9d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -56,29 +59,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: 0.4
-    - _AlphaClip: 1
-    - _AlphaToMask: 1
-    - _Blend: 3
-    - _BlendModePreserveSpecular: 0
-    - _Brightness: 0.34
-    - _CastShadows: 1
-    - _Cull: 2
-    - _DstBlend: 0
-    - _Gradient_Edge_1: -1.65
-    - _Gradient_Edge_2: 0.84
+    - _Float: 0.2
+    - _Noise_scale_trunk: 0.61
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ReceiveShadows: 1
-    - _SrcBlend: 1
-    - _Surface: 0
-    - _WorkflowMode: 1
-    - _ZTest: 4
-    - _ZWrite: 1
-    - _ZWriteControl: 0
+    - _Speed_trunk: 6
+    - _Subtract_trunk: 0.27
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 0.78039217}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Gradient_Color_A: {r: 1, g: 0.8549239, b: 0, a: 1}
-    - _Gradient_Color_B: {r: 1, g: 0.04082824, b: 0, a: 1}
+    - _ColorA: {r: 0.016852856, g: 1, b: 0, a: 0}
+    - _ColorB: {r: 1, g: 0.009412724, b: 0, a: 0}
+    - _Noise_UV_tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

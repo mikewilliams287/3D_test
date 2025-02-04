@@ -56,20 +56,20 @@ Material:
     m_Floats:
     - _NoiseScale: 2.78
     - _NoiseScale_big: 5
-    - _NoiseScale_leaves: 3
+    - _NoiseScale_leaves: 1
     - _NoiseScale_small: 7
-    - _NoiseScale_trunk: 3
+    - _NoiseScale_trunk: 1.4
     - _Noise_Tiling_X: 0.5
-    - _Noise_Tiling_Y: 1
+    - _Noise_Tiling_Y: -0.5
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Speed: 0.8
-    - _Speed_leaves: 0
-    - _Speed_trunk: 0
-    - _Trunk_Power: 0.076
+    - _Speed_leaves: 2.7
+    - _Speed_trunk: 1
+    - _Trunk_Power: 0
     m_Colors:
-    - _ColorA: {r: 0.19261481, g: 0.7169812, b: 0, a: 0}
-    - _ColorB: {r: 0.5283019, g: 0.3395956, b: 0, a: 0}
+    - _ColorA: {r: 0.053194284, g: 1, b: 0, a: 0}
+    - _ColorB: {r: 1, g: 0, b: 0.036188602, a: 0}
     - _ColorC: {r: 0, g: 0.10163807, b: 1, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &2114037556771698261
