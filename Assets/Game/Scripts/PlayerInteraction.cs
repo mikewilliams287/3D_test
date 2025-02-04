@@ -13,7 +13,7 @@ public class PlayerInteraction : MonoBehaviour
     void Update()
     {
         CheckInteraction();
-        if (Input.GetKeyDown(KeyCode.E) && currentInteractable != null)
+        if ((Input.GetKeyDown(KeyCode.E) || Mouse.current.leftButton.wasPressedThisFrame) && currentInteractable != null)
         {
             currentInteractable.Interact();
             Debug.Log("Interact Key Pressed");

@@ -6,7 +6,7 @@ using TMPro;
 
 public class Interactable : MonoBehaviour
 {
-    Outline outline;
+    //Outline outline;
     public string message;
 
     public UnityEvent onInteraction;
@@ -16,9 +16,9 @@ public class Interactable : MonoBehaviour
     {
 
 
-        outline = GetComponent<Outline>();
-        DisableOutline();
-        Debug.Log("OUTLINE IS DISABLED");
+        //outline = GetComponent<Outline>();
+        //DisableOutline();
+        //Debug.Log("OUTLINE IS DISABLED");
 
 
 
@@ -29,15 +29,17 @@ public class Interactable : MonoBehaviour
         onInteraction.Invoke();
     }
 
+
     public void DisableOutline()
     {
-        outline.enabled = false;
+        //outline.enabled = false;
     }
 
     public void EnableOutline()
     {
-        outline.enabled = true;
+        //outline.enabled = true;
     }
+
 
 
 }
